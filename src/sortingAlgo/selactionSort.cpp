@@ -37,15 +37,17 @@ void selactionSort(int a[],int n)
 
     int main()
     {
+        int n;
+        cin >> n;
 
-        int a[5];
-        for(int i=0; i<5; i++)
+        int a[n];
+        for(int i=0; i<n; i++)
         {
             cin>>a[i];
 
         }
 
-        selactionSort(a,5);
-        printArray(a,5);
+        selactionSort(a,n);
+        printArray(a,n);
     }
 
