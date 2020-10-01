@@ -45,15 +45,19 @@ void bSort(int a[],int n)
 
     int main()
     {
-
-        int a[5];
-        for(int i=0; i<5; i++)
+        int n;
+        cin >> n;
+        
+        int a[n];
+        for(int i=0; i<n; i++)
         {
             cin>>a[i];
 
         }
 
-        bSort(a,5);
-        printArray(a,5);
+        bSort(a,n);
+        printArray(a,n);
+        
+        return 0;
     }
 
